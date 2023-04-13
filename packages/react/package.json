@@ -1,0 +1,30 @@
+{
+  "name": "@tbdsux/js-utils-react",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Simple/mini react js functions / types / hooks utilities",
+  "main": "index.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs",
+    "module": "./dist/index.esm.js",
+    "types": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "bunchee ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-utils"
+  ],
+  "author": "Joshue Abance <euhsojlogro112002@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@tbdsux/js-utils-mini",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Simple/mini js function utilities for easy usage.",
+  "main": "index.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs",
+    "module": "./dist/index.esm.js",
+    "types": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "bunchee ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mini-utils",
+    "js-utils",
+    "util-functions",
+    "simple-functions"
+  ],
+  "author": "Joshue Abance <euhsojlogro112002@gmail.com>",
+  "license": "ISC"
+}

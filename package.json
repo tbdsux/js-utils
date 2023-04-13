@@ -3,22 +3,19 @@
   "version": "0.0.1",
   "private": false,
   "description": "Simple/mini js function utilities for easy usage.",
-  "main": "index.js",
-  "exports": {
-    "require": "./dist/index.cjs",
-    "import": "./dist/index.mjs",
-    "module": "./dist/index.esm.js",
-    "types": "./dist/index.d.ts"
-  },
   "scripts": {
-    "build": "bunchee ./src/index.ts"
+    "build": "turbo run build",
+    "clean": "rimraf -- packages/*/*.tgz packages/*/dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joshue Abance <euhsojlogro112002@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.15.10",
     "bunchee": "^2.2.1",
+    "prettier": "^2.8.7",
+    "rimraf": "^5.0.0",
+    "turbo": "^1.9.1",
     "typescript": "^5.0.2"
   }
 }

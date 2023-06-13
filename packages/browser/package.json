@@ -1,0 +1,27 @@
+{
+  "name": "@tbdsux/js-utils-browser",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Simple/mini js utility functions that only works on the browser api.",
+  "main": "index.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs",
+    "module": "./dist/index.esm.js",
+    "types": "./dist/index.d.ts"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "bunchee ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mini-utils",
+    "js-utils",
+    "util-functions",
+    "simple-functions",
+    "browser-utils"
+  ],
+  "author": "Joshue Abance <euhsojlogro112002@gmail.com>",
+  "license": "ISC"
+}
